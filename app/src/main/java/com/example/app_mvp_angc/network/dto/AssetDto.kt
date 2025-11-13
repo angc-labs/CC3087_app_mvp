@@ -39,10 +39,7 @@ data class AssetDto(
     val changePercent24Hr: String,
 
     @SerialName("vwap24Hr")
-    val vwap24Hr: String,
-
-    @SerialName("tokens")
-    val tokens: Map<String, List<String>> = emptyMap()
+    val vwap24Hr: String
 )
 
 

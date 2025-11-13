@@ -1,5 +1,6 @@
 package com.example.app_mvp_angc.network
 
+import android.util.Log
 import com.example.app_mvp_angc.network.dto.AssetResponse
 import com.example.app_mvp_angc.network.dto.AssetsResponse
 import io.ktor.client.HttpClient
@@ -22,6 +23,7 @@ class ApiService(
     }
 
     suspend fun getAssetById(id: String): AssetResponse {
+        Log.d("ApiService", "$baseUrl/assets/$id")
         return client.get("$baseUrl/assets/$id").body()
     }
 }
