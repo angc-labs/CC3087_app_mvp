@@ -7,13 +7,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.app_mvp"
+    namespace = "com.example.app_mvp_angc"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.app_mvp"
+        applicationId = "com.example.app_mvp_angc"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -44,6 +44,8 @@ android {
 }
 
 dependencies {
+    implementation(platform("androidx.compose:compose-bom:2025.01.00"))
+    implementation("androidx.compose.material:material-icons-extended")
     // view model
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     // coroutines

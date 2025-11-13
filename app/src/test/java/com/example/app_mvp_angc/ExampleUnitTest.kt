@@ -1,4 +1,4 @@
-package com.example.app_mvp
+package com.example.app_mvp_angc
 
 import org.junit.Test
 

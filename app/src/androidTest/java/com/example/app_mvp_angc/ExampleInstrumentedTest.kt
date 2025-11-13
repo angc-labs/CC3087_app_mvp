@@ -1,4 +1,4 @@
-package com.example.app_mvp
+package com.example.app_mvp_angc
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

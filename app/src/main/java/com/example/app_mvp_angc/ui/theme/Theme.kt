@@ -1,6 +1,5 @@
-package com.example.app_mvp.ui.theme
+package com.example.app_mvp_angc.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
